@@ -14,3 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/samarinda', \App\Livewire\SamarindaForm::class);
+
+Route::get('/balikpapan', \App\Livewire\BalikpapanForm::class);
